@@ -8,7 +8,7 @@ In recent years, California's drought and wildfires have spurred utility compani
 
 We seek to answer the question "How do electric power outages influence the solar installation trends?" My work this semester focused on visually and computationally identifying trends in NEM installations that may have been influenced by 2019 PG&E PSPS events while also developing and standardizing procedures for address parsing and geocoding.
 
-### Workflow (How to Use the Scripts)
+### Workflow 
 #### Datasets
 1. home solar installations in California 
 2. 2019 PG&E PSPS events _hyperlink_
@@ -25,6 +25,9 @@ These processes are common and useful for many geospatial objectives, which is m
    * Associate each address with a longitude and latitude by passing the address to a geocoding API
 5. Points-in-Layer 
    * identify the feeder to which each address belongs (i.e. what feeder supplies power to each house?)
+
+#### How to Use the Scripts
+_insert workflow pictures w/ script names_
 
 ### Scripts (include function purposes?)
 _Scripts in italics were not used in my final procedure (and so are not as well-annotated), but are included for additional detail._
