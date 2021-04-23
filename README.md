@@ -4,9 +4,9 @@
 ### Project Description
 Solar adoption plays a key role in questions of clean energy, carbon goals, and load/grid defection. Home solar installations are increasing, in part due to declining technological costs, increasing climate awareness, and political support. One economic incentive is Net Energy Metering (NEM), which allows consumers producing electricity to mitigate costs by storing excess electricity on the grid.
 
-In recent years, California's drought and wildfires have spurred utility companies to enact preemptive power outages. A well-known example is PG&E's Public Safety Power Shutoff (PSPS) events. The resulting power uncertainty is an additional incentive for homeowners to install solar. 
+In recent years, California's drought and wildfires have spurred utility companies to enact preemptive power outages. Take, for example, PG&E's Public Safety Power Shutoff (PSPS) events. The resulting power uncertainty is an additional incentive for homeowners to install solar. 
 
-We seek to answer the question "How do electric power outages influence the solar installation trends?" My work this semester focused on visually and computationally identify trends in NEM installations that may have been influenced by 2019 PG&E PSPS events while also developing and standardizing procedures for address parsing and geocoding.
+We seek to answer the question "How do electric power outages influence the solar installation trends?" My work this semester focused on visually and computationally identifying trends in NEM installations that may have been influenced by 2019 PG&E PSPS events while also developing and standardizing procedures for address parsing and geocoding.
 
 ### Workflow (How to Use the Scripts)
 #### Datasets
