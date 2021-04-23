@@ -2,8 +2,8 @@
 ## Shantanu Kadam, under [Will Gorman](https://sites.google.com/view/whgorman/home) and [Duncan Callaway](https://erg.berkeley.edu/people/callaway-duncan/) 
 ## Spring 2021 [SPUR](https://nature.berkeley.edu/undergraduate-research/spur/) Project
 ### Project Description
-### Description of Workflow (How to Use the Scripts)
-### Description of Scripts (file name, function name, purpose)
+### Workflow (How to Use the Scripts)
+### Scripts (include function purposes?)
 _scripts in italics were not used in my final procedure, but are included for additional detail._
 | Script | Purpose |
 | --- | ---|
