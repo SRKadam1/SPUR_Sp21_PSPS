@@ -40,8 +40,8 @@ _Scripts in italics were not used in my final procedure (and so are not as well-
 | _points_in_layer_event.R_ | Similar to above, but apply several different geographic regions sequentially. |
 
 #### Caution 
-* geocoding_functions.R uses the parallel processing option in `censusxy::cxy_geocode`. 
-* geocoding_functions.R has slight variability in which addresses get geocoded. Currently trying to rectify this issue. Consider running the any resulting, ungeocoded addresses through another geocoding process (either manual or this script again). 
+* _geocoding_functions.R_ uses the parallel processing option in `censusxy::cxy_geocode`. 
+* _geocoding_functions.R_ has slight variability in which addresses get geocoded. Currently trying to rectify this issue. Consider running the any resulting, ungeocoded addresses through another geocoding process (either manual or this script again). 
 
 #### Comments on Code
 * _clean_addresses_postmastr.R_ is only useful if you wish to look "behind the hood" of the `postmastr` procedure. See _points_in_layer.R_ for an example of the more practical `postermastr::parse`.
