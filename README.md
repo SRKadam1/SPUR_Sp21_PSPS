@@ -46,7 +46,7 @@ _Scripts in italics were not used in my final procedure (and so are not as well-
 
 #### Comments on Code
 * In all code, I have used certain datasets. You will have to provide your own, relevant datasets (e.g. addresses to geocode, points to geocode, the layers in which to geocode the points).
-* _clean_addresses_postmastr.R_ is only useful if you wish to look "behind the hood" of the `postmastr` procedure. See _points_in_layer.R_ for an example of the more practical `postermastr::parse`.
+* _clean_addresses_postmastr.R_ is only useful if you wish to look "behind the hood" of the `postmastr` procedure. See _points_in_layer.R_ for an example of the more practical `postermastr::parse`. See the [postmastr docs](https://slu-opengis.github.io/postmastr/articles/postmastr.html) for a proper explanation of the steps in address parsing and standardizing.
 * Use _points_in_layer.R_ if the relevant polygon geometries (e.g. feeders) are all contained in one file. Use _points_in_layer_event.R_  when you need to run a points-in-layer analysis using the geometries from one file, remove all identified points, and repeat the process for each file's geometries sequentially. 
    * If relevant polygon geometries are split between many files but the points-in-layer analysis does not need to be done indidivually for each file, consider merging all of the polygon geometries using the following code and then running _points_in_layer.R_
    *  ```
