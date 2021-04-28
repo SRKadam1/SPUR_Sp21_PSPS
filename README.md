@@ -11,11 +11,11 @@ We seek to answer the question "How do electric power outages influence the sola
 ### Workflow 
 #### Datasets
 1. home solar installations in California 
-2. 2019 PG&E PSPS events _hyperlink_
+2. 2019 PG&E PSPS events ([Attachment 6.2](https://www.pge.com/en_US/safety/emergency-preparedness/natural-disaster/wildfires/wildfire-mitigation-plan.page))
 
 The former contains addresses where solar was installed. The latter contains spatial information on the electricity feeders which were turned off during PSPS events. Some feeders were unaffected by PSPS events in 2019, whereas others were affected. If we can identify which addresses are in which feeders, then we can identify differences in the quantity of solar installed and determine whether those differences are due to PSPS events. I call this process of identifying an address (which is point data) by the feeder it lies in (which is a polygon contained in a geodatabase layer) "point-in-layer" analysis. 
 
-Two other datasets provide additional information for my analysis: power outage duration across California _hyperlink_ and geographies for all PG&E feeders (specifically those unaffected by outages).
+Two other datasets provide additional information for my analysis: power outage duration across California ([see Utility Company PSPS Post Event Reports](https://www.cpuc.ca.gov/psps/)) and geographies for all PG&E feeders specifically those unaffected by outages ([see ICA map](https://www.pge.com/en_US/for-our-business-partners/distribution-resource-planning/distribution-resource-planning-data-portal.page)).
 
 #### Research Steps
 These processes are common and useful for many geospatial objectives, which is my motivation for the semi-generalized code in this repository. 
@@ -27,17 +27,17 @@ These processes are common and useful for many geospatial objectives, which is m
    * identify the feeder to which each address belongs (i.e. what feeder supplies power to each house?)
 
 #### How to Use the Scripts
-_insert workflow pictures w/ script names_
+![image](https://user-images.githubusercontent.com/47875838/116447018-64d9c780-a80c-11eb-85b8-83cd6a248bbd.png)
 
-### Scripts (include function purposes?)
+### Scripts 
 _Scripts in italics were not used in my final procedure (and so are not as well-annotated), but are included for additional detail._
 | Script | Purpose |
 | --- | ---|
 | _clean_addresses_postmaster.R_ | Step-by-step use of `postmastr` to parse and standardize addresses |
-| geocoding_functions.R | Functions for batch geocoding. |
+| geocoding_functions.R | Functions for batch geocoding |
 | geocoding_example.R | Example workflow for using geocoding_functions.R |
 | points_in_layer.R | Identify whether point data lie within geographic regions |
-| _points_in_layer_event.R_ | Similar to above, but apply several different geographic regions sequentially. |
+| _points_in_layer_event.R_ | Similar to above, but apply several different geographic regions sequentially |
 
 #### Caution on _geocoding_functions.R_
 * Uses the parallel processing option in `censusxy::cxy_geocode`. 
