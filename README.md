@@ -55,4 +55,4 @@ _Scripts in italics were not used in my final procedure (and so are not as well-
                # any other processing? 
                # save result  
       ```
-* It is possible that I have ommitted variables or steps while cleaning up the code. If you find that to be true, please open an issue and I would be more than happy to rectify the problem. 
+* It is possible that I have omitted variables or steps while cleaning up the code. If you find that to be true, please open an issue and I would be more than happy to rectify the problem. 
