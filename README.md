@@ -26,7 +26,6 @@ These processes are common and useful for many geospatial objectives, which is m
 5. Points-in-Layer 
    * identify the feeder to which each address belongs (i.e. what feeder supplies power to each house?)
 
-#### How to Use the Scripts
 ![image](https://user-images.githubusercontent.com/47875838/116447018-64d9c780-a80c-11eb-85b8-83cd6a248bbd.png)
 
 ### Scripts 
