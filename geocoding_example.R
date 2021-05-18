@@ -25,7 +25,6 @@ unstd[c("geo","NAs")] <- wrap_geocoding(dirname,rel_data,len=8000,grouping=5,
 rel_data$full_addr <- paste(rel_data$Service.Address,rel_data$City,
                             rel_data$State,rel_data$Zip,sep=", ")
 # create dictionaries for parsing
-census_api_key("8fd77e8a4273f7d241b3d38fc54839250846682a",install="False") # needed?
 cdict <- pm_dictionary(type = "city",filter="CA",
                        case=c("title","lower","upper"),locale = "us")
 CAdict <- pm_dictionary(type="state", filter = "CA",
