@@ -1,6 +1,9 @@
 # Understanding the Role of Electric Power Outages on the Adoption of Solar and Storage Technologies
 ## Shantanu Kadam, under [Will Gorman](https://sites.google.com/view/whgorman/home) and [Duncan Callaway](https://erg.berkeley.edu/people/callaway-duncan/) 
 ## Spring 2021 [SPUR](https://nature.berkeley.edu/undergraduate-research/spur/) Project
+
+### Poster in repo (presented at SPUR poster presentation May 2021)
+
 ### Project Description
 Solar adoption plays a key role in questions of clean energy, carbon goals, and load/grid defection. Home solar installations are increasing, in part due to declining technological costs, increasing climate awareness, and political support. One economic incentive is Net Energy Metering (NEM), which allows consumers producing electricity to mitigate costs by storing excess electricity on the grid.
 
